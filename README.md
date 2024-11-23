@@ -1,5 +1,7 @@
 # ws-nodejs-wanju
 
+协议类型:vms即vmess,vls即vless,spl即splithttp和vmess
+
 特点: 支持订阅，支持ws直连，支持隧道ws，支持临时隧道
 
 优点:支持最全面
