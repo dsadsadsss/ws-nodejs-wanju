@@ -5,7 +5,7 @@ const vmms = process.env.MPATH || 'vms'; //vms path
 const vmmport = process.env.VM_PORT || '8001'; //vms spl端口，默认即可
 const vpath = process.env.VPATH || 'vls'; //vls path
 const vport = process.env.VL_PORT || '8002'; //vls端口，默认即可
-const tmpargo = process.env.TMP_ARGO || 'vms'; //协议类型可选vms,vls,spl,tuic,hy2,rel
+const tmpargo = process.env.TMP_ARGO || 'vms'; //协议类型可选vms,vls,spl,tuic,hy2,rel,3x,sock
 const subname = process.env.SUB_NAME || 'Argo'; //节点名称
 const suburl = process.env.SUB_URL || ''; //订阅服务器地址，留空即可
 //====哪吒参数
